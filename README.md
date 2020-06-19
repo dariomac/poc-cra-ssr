@@ -1,8 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to run the project
+
+Before running any script you should run:
+
+`yarn install`
+
+Or
+
+`npm install`
 
 In the project directory, you can run:
+
+### `yarn start-server` or `npm run start-server`
+
+Runs the app in production mode (although is a PoC, we wanted to make it work as much as will do in production). <br />
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You will also see requests logs in the console, using [https://github.com/dariomac/dm-logger](https://github.com/dariomac/dm-logger). <br />
+
+If you find this repo and didn't read the full article, you can do it here: [https://www.vairix.com/tech-blog/server-side-rendering-ssr-of-create-react-app-cra-app-in-2020](https://www.vairix.com/tech-blog/server-side-rendering-ssr-of-create-react-app-cra-app-in-2020)
+
+## Create-React-App default scripts
 
 ### `yarn start`
 
